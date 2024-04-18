@@ -15,7 +15,6 @@ unsigned long previousMillis = 0;
 const long interval = 3000;
 char convertedPPM[8];
 float PPM;
-
 LiquidCrystal_I2C lcd(0x27,16,2);  // set the LCD address to 0x27 for a 16 chars and 2 line display
 MQUnifiedsensor MQ135(placa, Voltage_Resolution, ADC_Bit_Resolution, pin, type);
 WiFiManager wm;
