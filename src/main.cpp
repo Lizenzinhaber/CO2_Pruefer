@@ -10,7 +10,7 @@
 #define type "MQ-135" //MQ135
 #define ADC_Bit_Resolution 12 // For ESP32-WROOM-32E
 #define RatioMQ135CleanAir 3.6//RS / R0 = 3.6 ppm
-
+// asdf
 unsigned long previousMillis = 0;
 const long interval = 3000;
 char convertedPPM[8];
