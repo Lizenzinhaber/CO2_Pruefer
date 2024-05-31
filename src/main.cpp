@@ -9,7 +9,7 @@ void setup()
   printf("Hello World");
 }
 
-void main()
+void loop()
 {
-  
+
 }
